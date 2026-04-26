@@ -1,0 +1,12 @@
+Issue,Decision,Reason
+Missing Medal values,Filled missing Medal as 'None' because missing medal indicates no medal won.,"The Medal column is the target outcome, and non-medalists are represented as blank."
+Duplicate records,Removed 3 duplicate records using all columns except Athlete_ID.,"Athlete_ID is a row identifier, so duplicates must be detected using substantive athlete fields."
+Impossible Age,"Set age below 15 to missing, then imputed using sport/gender median.",A 9-year-old Olympic athlete is not plausible in this dataset.
+Impossible Training Hours,"Set training hours above 80 per week to missing, then imputed using sport/gender median.",172 training hours/week is physically impossible because a week has 168 hours.
+Impossible Body Fat Percentage,"Set body fat percentage above 60% to missing, then imputed using sport/gender median.",99.2% body fat is biologically impossible for an Olympic athlete.
+Impossible VO2max,"Set VO2max less than or equal to 0 to missing, then imputed using sport/gender median.",VO2max cannot be negative.
+MCAR-style missing numeric variables,"Imputed using sport/gender median, then sport median, then global median.",Sport and gender strongly affect physiology and training values.
+MNAR Reaction Time,"Preserved missingness flag because missingness is sport-systematic, then imputed for modeling usability.",Reaction time is not measured or relevant in the same way for every sport.
+MNAR World Cup Points,"Preserved missingness flag because missingness is sport-systematic, then imputed for modeling usability.",World Cup points are not equally available across all sports.
+Outliers,Flagged using IQR but did not automatically remove real extreme athletes.,The instructions warn that real outliers exist and should not be blindly deleted.
+Feature engineering,"Created physiology, experience, national support, injury-load, age band, and medal grouping features.","These features connect athlete physiology, training, experience, and country-level sport systems."
