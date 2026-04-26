@@ -1,0 +1,5 @@
+Athlete_ID,Athlete_Name,Country,Gender,Sport,Age,error_column,error_value,Training_Hours_Per_Week,Body_Fat_Pct,VO2max
+MC26_1170,Pierre Johnson,GBR,M,Ice Hockey,9.0,Age,9.0,,,
+MC26_1328,Kyle Thompson,SWE,M,Speed Skating,,Training_Hours_Per_Week,172.0,172.0,,
+MC26_1176,Jonas Wilson,NED,M,Snowboard,,Body_Fat_Pct,99.2,,99.2,
+MC26_1010,Nathan Fischer,FIN,M,Short Track,,VO2max,-8.4,,,-8.4
