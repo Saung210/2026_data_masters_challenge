@@ -1,0 +1,5 @@
+Stage,Rows,Columns,Notes
+Raw dataset,390,17,Original dataset
+After duplicate removal,387,20,Removed duplicate athlete records based on all non-ID fields
+After impossible values set to missing,387,20,Impossible values flagged and replaced with NaN before imputation
+After imputation and feature engineering,387,54,Missing numeric values imputed; features and flags added
