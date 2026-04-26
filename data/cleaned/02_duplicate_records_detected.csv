@@ -1,0 +1,7 @@
+Athlete_ID,Athlete_Name,Country,Gender,Age,Sport,Previous_Olympics,Training_Hours_Per_Week,Altitude_Training_m,Body_Fat_Pct,VO2max,Reaction_Time_ms,Career_Injuries,World_Cup_Points_Preseason,Country_GDP_per_capita,Winter_Sport_Tradition_Index,Medal,Medal_Clean,Medal_Binary,Gold_Binary
+MC26_1132,Brandon Bernard,CHN,M,42,Ice Hockey,2,22.5,155.0,12.0,61.9,165.0,1,,13000,0.62,,None,0,0
+MC26_1275,Brandon Bernard,CHN,M,42,Ice Hockey,2,22.5,155.0,12.0,61.9,165.0,1,,13000,0.62,,None,0,0
+MC26_1129,Lisa Martin,JPN,F,24,Alpine Skiing,2,26.2,1835.0,9.2,63.8,177.0,3,745.0,35000,0.74,,None,0,0
+MC26_1383,Lisa Martin,JPN,F,24,Alpine Skiing,2,26.2,1835.0,9.2,63.8,177.0,3,745.0,35000,0.74,,None,0,0
+MC26_1276,Trevor Martin,FRA,M,37,Ice Hockey,1,23.2,,14.6,,219.0,5,,48000,0.87,,None,0,0
+MC26_1356,Trevor Martin,FRA,M,37,Ice Hockey,1,23.2,,14.6,,219.0,5,,48000,0.87,,None,0,0
