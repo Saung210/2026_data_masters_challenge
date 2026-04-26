@@ -1,0 +1,8 @@
+Athlete_Name,Country,Sport,Age,Medal_Clean,Predicted_Medal_Probability,Predicted_Class_Tuned,Predicted_Label_0p50,Predicted_Label_Tuned,World_Cup_Points_Preseason,Previous_Olympics,Training_Hours_Per_Week,VO2max,MNAR_World_Cup_Points_Missing,MNAR_Reaction_Time_Missing
+Mikaela Shiffrin,USA,Alpine Skiing,31.0,Gold,0.9698130591910222,1,Medal,Medal,823.0,1,27.2,81.2,0,0
+Metodej Jilek,CZE,Speed Skating,20.0,Gold,0.9210052807836456,1,Medal,Medal,1244.0,5,28.8,81.3,0,0
+Jordan Stolz,USA,Speed Skating,22.0,Gold,0.9140078522170677,1,Medal,Medal,571.0,1,31.8,83.1,1,0
+Elana Meyers Taylor,USA,Bobsleigh,42.0,Gold,0.8207373378496957,1,Medal,Medal,293.0,3,25.2,73.3,1,1
+Courtney Sarault,CAN,Short Track,27.0,Silver,0.6608834797666081,1,Medal,Medal,536.0,2,29.6,72.9,1,0
+Deanna Stellato-Dudek,CAN,Figure Skating,43.0,,0.2743489553934334,0,No Medal,No Medal,587.5,3,29.3,55.2,1,1
+Connor McDavid,CAN,Ice Hockey,29.0,Silver,0.2606017846755307,0,No Medal,No Medal,587.5,4,23.7,64.9,1,0
